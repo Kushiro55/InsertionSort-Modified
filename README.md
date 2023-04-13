@@ -32,7 +32,9 @@ The final version of the algorithm is the current implementation, which uses the
 ### Usage 
 To use the CustomSort algorithm, simply call the function and pass in an array of numbers to be sorted:
 ```javascript
-const myArray = [4, 2, 8, 3, 1, 6, 5, 7]; const sortedArray = customSort(myArray); console.log(sortedArray); // [1, 2, 3, 4, 5, 6, 7, 8]
+const myArray = [4, 2, 8, 3, 1, 6, 5, 7]; 
+const sortedArray = customSort(myArray); 
+console.log(sortedArray); // [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
 ### Conclusion
