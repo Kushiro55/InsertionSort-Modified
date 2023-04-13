@@ -1,2 +1,2 @@
 # InsertionSort-Modified
-## CustomSort Algorithm
+##### CustomSort Algorithm
