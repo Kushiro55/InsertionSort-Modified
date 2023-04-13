@@ -11,6 +11,7 @@ The CustomSort algorithm works as follows:
 4.- Insert the current element into the sortedArr array at the position where the value greater than the current element was found.
 5.- If no value greater than the current element is found, append the current element to the end of the sortedArr array.
 6.- Once all elements have been processed, the sortedArr array contains the input array sorted in ascending order.
+
 ### Performance
 The CustomSort algorithm has a time complexity of O(n^2) in the worst case, where n is the number of elements in the input array. This is because the algorithm uses nested loops to compare and insert elements, resulting in potentially many comparisons and insertions. However, in practice, the CustomSort algorithm can be more efficient than basic insertion sort for small arrays, as it reduces the number of comparisons needed to sort the array.
 
