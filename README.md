@@ -22,12 +22,12 @@ The algorithm has a space complexity of O(n), as it creates a new array to store
 The initial version was a simple implementation of insertion sort, using nested loops to compare and insert elements. This version had a time complexity of O(n^2) in the worst case, and was not particularly efficient for large arrays.
 
 #### Version 2
-The second version added an optimization to reduce the number of comparisons needed to sort the array. The optimization involved keeping track of the last element that was inserted into the sortedArr array, and only comparing the current element with the last element that was inserted, rather than looping through the entire sortedArr array. This optimization improved the performance of the algorithm for small arrays, but did not significantly improve the time complexity.
+In the second version an optimization was added to reduce the number of comparisons needed to sort the array. The optimization involved keeping track of the last element that was inserted into the "sortedArr" array, and only comparing the current element with the last element that was inserted, rather than looping through the entire "sortedArr" array. This optimization improved the performance of the algorithm for small arrays, but did not significantly improve the time complexity.
 
 ### Final Version
-The final version of the algorithm is the current implementation, which uses the insertion sort technique to sort the input array in ascending order. This version has the same time complexity as the initial version, but is more efficient due to the use of a separate sortedArr array to store the sorted elements. The final version has been tested and compared with other sorting algorithms, and has been found to perform well for small arrays.
+The current implementation of the algorithm, which uses the insertion sort technique to sort the input array in ascending order. This version has the same time complexity as the initial version, but is more efficient due to the use of a separate "sortedArr" array to store the sorted elements. The final version has been tested and compared with other sorting algorithms, and has been found to perform well for small arrays.
 
-*Note that more testing is needed to determine the performance of the CustomSort algorithm for large arrays and in various scenarios.*
+*Note: More testing is needed in order to determine the performance of the CustomSort algorithm for large arrays and in various scenarios.*
 
 ### Usage 
 To use the CustomSort algorithm, simply call the function and pass in an array of numbers to be sorted:
