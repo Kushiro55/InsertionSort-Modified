@@ -6,6 +6,7 @@ CustomSort is a sorting algorithm made by me to sort arrays of numbers. This alg
 The CustomSort algorithm works as follows:
 
 1.- Create a new array called sortedArr and add the first element of the input array to it.
+
 2.- Loop through the input array starting from the second element.
 3.- For each element, loop through the sortedArr array from the beginning until a value greater than the current element is found.
 4.- Insert the current element into the sortedArr array at the position where the value greater than the current element was found.
