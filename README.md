@@ -22,7 +22,7 @@ The algorithm has a space complexity of O(n), as it creates a new array to store
 The initial version was a simple implementation of insertion sort, using nested loops to compare and insert elements. This version had a time complexity of O(n^2) in the worst case, and was not particularly efficient for large arrays.
 
 #### Version 2
-In the second version an optimization was added to reduce the number of comparisons needed to sort the array. The optimization involved keeping track of the last element that was inserted into the "sortedArr" array, and only comparing the current element with the last element that was inserted, rather than looping through the entire "sortedArr" array. This optimization improved the performance of the algorithm for small arrays, but did not significantly improve the time complexity.
+For the second version an optimization was added to reduce the number of comparisons needed to sort the array. The optimization involved keeping track of the last element that was inserted into the "sortedArr" array, and only comparing the current element with the last element that was inserted, rather than looping through the entire "sortedArr" array. This optimization improved the algorithm's performance for small arrays, but did not significantly improve its time complexity.
 
 ### Final Version
 The current implementation of the algorithm, which uses the insertion sort technique to sort the input array in ascending order. This version has the same time complexity as the initial version, but is more efficient due to the use of a separate "sortedArr" array to store the sorted elements. The final version has been tested and compared with other sorting algorithms, and has been found to perform well for small arrays.
